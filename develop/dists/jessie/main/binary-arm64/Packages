@@ -1,17 +1,37 @@
 Package: ombi
 Priority: optional
 Section: main
-Installed-Size: 144187
+Installed-Size: 144189
 Maintainer: Roxedus <me@roxedus.dev>
 Architecture: arm64
-Version: 4.0.1476
+Version: 4.0.1482
 Depends: adduser
-Filename: pool/main/o/ombi/ombi_4.0.1476_arm64.deb
-Size: 36618628
-MD5sum: 90d9d197c2b3c6e3999ef02e6b3b68bf
-SHA1: 52824a575810d1fc8245246494f9300a30d09d4e
-SHA256: c2666e8227c897d36d1cd0c3f728d08e8ae421e729f9cac4c8833c4e00e84a7e
-SHA512: 46f45c10778e5e40ebc13650b8f322f8108a410cd651421e56d4ac3324be4bf43c119da232d3f2e6171110af55a39e4e724408985e34c5e0ee6d0cb4af37379e
+Filename: pool/main/o/ombi/ombi_4.0.1482_arm64.deb
+Size: 36642240
+MD5sum: a5e2b4db4b700639d1b00e3710ed760d
+SHA1: 1716a897e7369a66c933a3f39fa378eefa8d07ce
+SHA256: 4ca6a794860c93bf031ce845918b9712b86cb89a213f454653c5dca1e5c191df
+SHA512: 37de802869b350bb41e15206ed2a9ccf80470e96ea762e1b63b4aed75be725e5989fd27639ba346ac909ecfae1108cc8bb9de41d8a77f6fed4ced00c2f2ebb86
+Description: Want a Movie or TV Show on Plex or Emby? Use Ombi!
+ Ombi is a self-hosted web application that automatically gives your
+ shared Plex or Emby users the ability to request content by themselves!
+ Ombi can be linked to multiple TV Show and Movie DVR tools to create
+ a seamless end-to-end experience for your users.
+
+Package: ombi
+Priority: optional
+Section: main
+Installed-Size: 144189
+Maintainer: Roxedus <me@roxedus.dev>
+Architecture: arm64
+Version: 4.0.1477
+Depends: adduser
+Filename: pool/main/o/ombi/ombi_4.0.1477_arm64.deb
+Size: 36642440
+MD5sum: 479e29ee69d0957c41d39e78d605bce3
+SHA1: d043ac41725f88d1b05350b877ec412793299977
+SHA256: cfed19f2435bd2d37677d2ff858048241408d70332bfb50448e5a273dd9e61af
+SHA512: 1aabd5bf41ed8af9ee9fccbce0dd89a2724fdd734141f52763f1ab3741c3483384acf0dd6eb11218f8df59ca8715864ebceba8ebd35576c56e24432e1d63ecb1
 Description: Want a Movie or TV Show on Plex or Emby? Use Ombi!
  Ombi is a self-hosted web application that automatically gives your
  shared Plex or Emby users the ability to request content by themselves!
