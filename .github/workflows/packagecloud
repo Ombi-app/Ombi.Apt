@@ -1,0 +1,55 @@
+name: Push to PackageCloud
+
+on:
+  workflow_dispatch:
+    inputs:
+      version:
+        description: "Version to publish"
+        required: true
+
+jobs:
+  Deb:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Create Debs
+        uses: ./build
+        id: build
+        with:
+          repo: Ombi-app/Ombi
+          maintainer: TidusJar <tidusjar@gmail.com>
+          name: ombi
+          version: ${{ github.event.inputs.version }}
+          description: |
+            Want a Movie or TV Show on Plex/Emby/Jellyfin? Use Ombi!
+            Ombi is a self-hosted web application that automatically gives your
+            shared Plex or Emby users the ability to request content by themselves!
+            Ombi can be linked to multiple TV Show and Movie DVR tools to create
+            a seamless end-to-end experience for your users.
+
+      - name: Publish Debs
+        uses: ./publish
+        with:
+          gpg_priv: ${{ secrets.GPG_PRIV }}
+          gpg_passphrase: ${{ secrets.GPG_PHRASE }}
+          state: ${{ steps.build.outputs.state }}
+
+      - name: Add Debs
+        uses: EndBug/add-and-commit@v4 # You can change this to use a specific version
+        with:
+          add: repo
+          author_name: RoxBot
+          message: Added New Release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+ 
+      - name: Package Cloud Deploy
+        uses: docker://lpenz/ghaction-packagecloud:v0.2
+        with:
+          repository: ombi-app/Ombi
+          directory: ./repo/public
+        env:
+          PACKAGECLOUD_TOKEN: ${{ secrets.PACKAGECLOUD_TOKEN }}
