@@ -1,6 +1,26 @@
 Package: ombi
 Priority: optional
 Section: main
+Installed-Size: 135548
+Maintainer: Roxedus <me@roxedus.dev>
+Architecture: amd64
+Version: 4.2.4
+Depends: adduser
+Filename: pool/main/o/ombi/ombi_4.2.4_amd64.deb
+Size: 40063344
+MD5sum: c7a49d0600f5fc3dbe083e8bc78cce5d
+SHA1: 47795ea1df64c6553d0de3b128cc478d6d9d0059
+SHA256: ef151a6992763051f77266149342544539316e34b67f67e75f3a6e12c7e255aa
+SHA512: cf355d5968e90da80fae15ce65ae3965b1eee8bc8b19e751909410cab0d0c618f1f5fc69a561835ea6bb60270bf95bf07bfdca6a6ff3a35c37303bb45707ba2b
+Description: Want a Movie or TV Show on Plex or Emby? Use Ombi!
+ Ombi is a self-hosted web application that automatically gives your
+ shared Plex or Emby users the ability to request content by themselves!
+ Ombi can be linked to multiple TV Show and Movie DVR tools to create
+ a seamless end-to-end experience for your users.
+
+Package: ombi
+Priority: optional
+Section: main
 Installed-Size: 135552
 Maintainer: Roxedus <me@roxedus.dev>
 Architecture: amd64
