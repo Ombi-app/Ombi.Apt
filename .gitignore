@@ -1,0 +1,9 @@
+.env
+.secret
+builds/
+publish/.privkey
+venv/
+log
+
+repo/develop/db/LOG
+repo/develop/db/*.log
