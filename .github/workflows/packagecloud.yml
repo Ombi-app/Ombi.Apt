@@ -13,7 +13,7 @@ jobs:
 
     steps:
       - name: Create Debs
-        uses: #./build
+        uses: ./build
         id: build
         with:
           repo: Ombi-app/Ombi
