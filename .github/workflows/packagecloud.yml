@@ -49,7 +49,7 @@ jobs:
       - name: Package Cloud Deploy
         uses: docker://lpenz/ghaction-packagecloud:v0.2
         with:
-          repository: ombi-app/debian/jessie
-          directory: ./builds
+          repository: ombi-app/ombi/debian/jessie
+          directory: main
         env:
           PACKAGECLOUD_TOKEN: ${{ secrets.PACKAGECLOUD_TOKEN }}
