@@ -49,8 +49,8 @@ jobs:
       - name: Package Cloud Deploy
         uses: docker://lpenz/ghaction-packagecloud:v0.2
         with:
-          user: tidusjar
-          repository: ombi-app/debian/jessie
+          user: Ombi-app
+          repository: Ombi/debian/jessie
           files: ./builds/*.deb
         env:
           PACKAGECLOUD_TOKEN: ${{ secrets.PACKAGECLOUD_TOKEN }}
