@@ -51,6 +51,6 @@ jobs:
         with:
           user: Ombi-app
           repository: Ombi/debian/jessie
-          directory: builds/
+          #directory: builds/
         env:
           PACKAGECLOUD_TOKEN: ${{ secrets.PACKAGECLOUD_TOKEN }}
