@@ -50,6 +50,6 @@ jobs:
         uses: docker://lpenz/ghaction-packagecloud:v0.2
         with:
           repository: ombi-app/Ombi
-          directory: ./repo/public
+          directory: ./debian/jessie
         env:
           PACKAGECLOUD_TOKEN: ${{ secrets.PACKAGECLOUD_TOKEN }}
