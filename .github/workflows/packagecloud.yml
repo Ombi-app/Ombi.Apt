@@ -16,7 +16,7 @@ jobs:
       #   uses: actions/checkout@v2
 
       - name: Create Debs
-        uses: docker://roxedus/playground:apt #./build
+        uses: #./build
         id: build
         with:
           repo: Ombi-app/Ombi
