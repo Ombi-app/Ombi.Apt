@@ -33,7 +33,7 @@ jobs:
         uses: docker://lpenz/ghaction-packagecloud:v0.2
         with:
           user: Ombi-app
-          repository: Ombi-develop/debian/jessie
+          repository: Ombi/debian/jessie/develop
           #directory: builds/
         env:
           PACKAGECLOUD_TOKEN: ${{ secrets.PACKAGECLOUD_TOKEN }}
