@@ -176,3 +176,60 @@
 22:38:22.373847 table@remove removed @27
 22:38:34.612919 db@close closing
 22:38:34.613068 db@close done T·147.103µs
+=============== Apr 14, 2022 (UTC) ===============
+09:55:00.483319 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+09:55:00.483967 version@stat F·[0 1] S·30KiB[0B 30KiB] Sc·[0.00 0.00]
+09:55:00.483977 db@open opening
+09:55:00.484012 journal@recovery F·1
+09:55:00.484410 journal@recovery recovering @38
+09:55:00.486384 memdb@flush created L0@41 N·4 S·10KiB "Eab..ain,v80":"xCP..e7f,v79"
+09:55:00.486644 version@stat F·[1 1] S·40KiB[10KiB 30KiB] Sc·[0.25 0.00]
+09:55:00.487803 db@janitor F·4 G·0
+09:55:00.487832 db@open done T·3.83836ms
+09:55:00.853619 db@close closing
+09:55:00.853678 db@close done T·58.299µs
+=============== Apr 14, 2022 (UTC) ===============
+09:55:00.865701 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+09:55:00.865841 version@stat F·[1 1] S·40KiB[10KiB 30KiB] Sc·[0.25 0.00]
+09:55:00.865848 db@open opening
+09:55:00.865884 journal@recovery F·1
+09:55:00.866734 journal@recovery recovering @42
+09:55:00.867651 memdb@flush created L0@44 N·6 S·1KiB "C7b..deb,v82":"xFP..251,v84"
+09:55:00.867903 version@stat F·[2 1] S·42KiB[12KiB 30KiB] Sc·[0.50 0.00]
+09:55:00.869524 db@janitor F·5 G·0
+09:55:00.869544 db@open done T·3.689462ms
+09:55:01.251660 db@close closing
+09:55:01.251727 db@close done T·65.899µs
+=============== Apr 14, 2022 (UTC) ===============
+09:55:01.265713 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+09:55:01.265842 version@stat F·[2 1] S·42KiB[12KiB 30KiB] Sc·[0.50 0.00]
+09:55:01.265849 db@open opening
+09:55:01.265883 journal@recovery F·1
+09:55:01.266730 journal@recovery recovering @45
+09:55:01.267651 memdb@flush created L0@47 N·6 S·1KiB "C34..deb,v89":"xFP..4bc,v91"
+09:55:01.267902 version@stat F·[3 1] S·43KiB[13KiB 30KiB] Sc·[0.75 0.00]
+09:55:01.269484 db@janitor F·6 G·0
+09:55:01.269504 db@open done T·3.648262ms
+09:55:01.670867 db@close closing
+09:55:01.670935 db@close done T·67.399µs
+=============== Apr 14, 2022 (UTC) ===============
+09:55:01.678376 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+09:55:01.678502 version@stat F·[3 1] S·43KiB[13KiB 30KiB] Sc·[0.75 0.00]
+09:55:01.678510 db@open opening
+09:55:01.678545 journal@recovery F·1
+09:55:01.679624 journal@recovery recovering @48
+09:55:01.680418 memdb@flush created L0@50 N·6 S·1KiB "C08..deb,v96":"xFP..c1f,v98"
+09:55:01.680699 version@stat F·[4 1] S·45KiB[15KiB 30KiB] Sc·[1.00 0.00]
+09:55:01.682138 db@janitor F·7 G·0
+09:55:01.682158 db@open done T·3.640863ms
+09:55:01.682197 table@compaction L0·4 -> L1·1 S·45KiB Q·102
+09:55:01.683670 table@build created L1@53 N·73 S·42KiB "C08..deb,v96":"xFP..158,v46"
+09:55:01.683694 version@stat F·[0 1] S·42KiB[0B 42KiB] Sc·[0.00 0.00]
+09:55:01.684018 table@compaction committed F-4 S-2KiB Ke·0 D·4 T·1.801082ms
+09:55:01.684069 table@remove removed @50
+09:55:01.684098 table@remove removed @47
+09:55:01.684123 table@remove removed @44
+09:55:01.684150 table@remove removed @41
+09:55:01.684177 table@remove removed @40
+09:55:15.118012 db@close closing
+09:55:15.118144 db@close done T·33.899µs
