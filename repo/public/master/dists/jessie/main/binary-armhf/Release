@@ -1,5 +1,6 @@
 Origin: master jessie
 Label: master jessie
 Archive: jessie
+Suite: jessie
 Architecture: armhf
 Component: main

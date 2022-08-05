@@ -290,3 +290,71 @@
 08:15:18.865260 table@remove removed @53
 08:15:34.246938 db@close closing
 08:15:34.247004 db@close done T·63.8µs
+=============== Aug 5, 2022 (UTC) ===============
+19:38:11.423504 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+19:38:11.424687 version@stat F·[0 1] S·55KiB[0B 55KiB] Sc·[0.00 0.00]
+19:38:11.424716 db@open opening
+19:38:11.424776 journal@recovery F·1
+19:38:11.426615 journal@recovery recovering @64
+19:38:11.428501 memdb@flush created L0@67 N·4 S·9KiB "Eab..ain,v132":"xCP..0e9,v131"
+19:38:11.428774 version@stat F·[1 1] S·64KiB[9KiB 55KiB] Sc·[0.25 0.00]
+19:38:11.430643 db@janitor F·4 G·0
+19:38:11.430672 db@open done T·5.948479ms
+19:38:11.809342 transaction@flush created L0@70 N·5 S·1KiB "C1d..deb,v134":"xFP..289,v136"
+19:38:11.809391 version@stat F·[2 1] S·66KiB[11KiB 55KiB] Sc·[0.50 0.00]
+19:38:11.810146 db@close closing
+19:38:11.810265 db@close done T·115.602µs
+=============== Aug 5, 2022 (UTC) ===============
+19:38:11.835515 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+19:38:11.835745 version@stat F·[2 1] S·66KiB[11KiB 55KiB] Sc·[0.50 0.00]
+19:38:11.835767 db@open opening
+19:38:11.835814 journal@recovery F·1
+19:38:11.836251 journal@recovery recovering @68
+19:38:11.837399 memdb@flush created L0@71 N·2 S·734B "E5a..68d,v140":"L5a..68d,v139"
+19:38:11.838642 version@stat F·[3 1] S·66KiB[11KiB 55KiB] Sc·[0.75 0.00]
+19:38:11.840774 db@janitor F·6 G·0
+19:38:11.840832 db@open done T·5.046567ms
+19:38:12.194554 transaction@flush created L0@74 N·5 S·1KiB "C84..deb,v142":"xFP..e8a,v144"
+19:38:12.194589 version@stat F·[4 1] S·68KiB[13KiB 55KiB] Sc·[1.00 0.00]
+19:38:12.195263 table@compaction L0·4 -> L1·1 S·68KiB Q·146
+19:38:12.195304 table@build exiting
+19:38:12.195272 db@close closing
+19:38:12.195488 db@close done T·211.902µs
+=============== Aug 5, 2022 (UTC) ===============
+19:38:12.220735 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+19:38:12.220947 version@stat F·[4 1] S·68KiB[13KiB 55KiB] Sc·[1.00 0.00]
+19:38:12.220968 db@open opening
+19:38:12.221013 journal@recovery F·1
+19:38:12.221541 journal@recovery recovering @72
+19:38:12.222426 memdb@flush created L0@75 N·2 S·758B "E5a..68d,v148":"L5a..68d,v147"
+19:38:12.223253 version@stat F·[5 1] S·68KiB[13KiB 55KiB] Sc·[1.25 0.00]
+19:38:12.225819 db@janitor F·8 G·0
+19:38:12.225857 db@open done T·4.868865ms
+19:38:12.225891 table@compaction L0·5 -> L1·1 S·68KiB Q·149
+19:38:12.229719 table@build created L1@78 N·104 S·66KiB "C05..deb,v108":"xFP..158,v46"
+19:38:12.229766 version@stat F·[0 1] S·66KiB[0B 66KiB] Sc·[0.00 0.00]
+19:38:12.230271 table@compaction committed F-5 S-1KiB Ke·0 D·5 T·4.339658ms
+19:38:12.230351 table@remove removed @74
+19:38:12.230383 table@remove removed @71
+19:38:12.230414 table@remove removed @70
+19:38:12.230447 table@remove removed @67
+19:38:12.230534 table@remove removed @66
+19:38:12.561596 transaction@flush created L0@79 N·5 S·1KiB "Ceb..deb,v150":"xFP..33f,v152"
+19:38:12.561652 version@stat F·[1 1] S·68KiB[1KiB 66KiB] Sc·[0.25 0.00]
+19:38:12.562694 db@close closing
+19:38:12.562784 db@close done T·87.701µs
+=============== Aug 5, 2022 (UTC) ===============
+19:38:12.585564 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+19:38:12.585770 version@stat F·[1 1] S·68KiB[1KiB 66KiB] Sc·[0.25 0.00]
+19:38:12.585795 db@open opening
+19:38:12.585841 journal@recovery F·1
+19:38:12.586485 journal@recovery recovering @76
+19:38:12.587849 memdb@flush created L0@80 N·2 S·782B "E5a..68d,v156":"L5a..68d,v155"
+19:38:12.588562 version@stat F·[2 1] S·68KiB[1KiB 66KiB] Sc·[0.50 0.00]
+19:38:12.591033 db@janitor F·6 G·1
+19:38:12.591054 db@janitor removing table-75
+19:38:12.591104 db@open done T·5.302671ms
+19:38:27.100453 db@close closing
+19:38:27.100490 table@compaction L0·2 -> L1·1 S·68KiB Q·162
+19:38:27.100498 table@build exiting
+19:38:27.100758 db@close done T·303.004µs
