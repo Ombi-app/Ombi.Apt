@@ -1,6 +1,6 @@
 FROM ubuntu:focal
 
-ENV DEBIAN_FRONTEND=noninteractive HOME=$GITHUB_HOME
+ENV DEBIAN_FRONTEND=noninteractive
 
 RUN apt-get update -qq && \
     apt-get install -y --no-install-recommends --no-install-suggests \

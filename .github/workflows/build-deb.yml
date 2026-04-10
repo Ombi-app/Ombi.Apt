@@ -15,12 +15,27 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
 
+      - name: Install Aptly
+        run: sudo apt-get update && sudo apt-get install aptly -y
+
+      - name: Cleanup Database
+        run: |
+          aptly db cleanup -config="repo/develop.aptly.conf" -verbose
+          
+      - name: Remove Old Package Versions
+        run: |
+          aptly repo remove -config="repo/develop.aptly.conf" ombi 'Version (<< 4.9.0)'
+          
+      - name: Cleanup Database After Package Removal
+        run: |
+          aptly db cleanup -config="repo/develop.aptly.conf"
+
       - name: Create Debs
         uses: ./build
         id: build
         with:
           repo: Ombi-app/Ombi
-          maintainer: Roxedus <me@roxedus.dev>
+          maintainer: austind9999 <1184583+austind9999@users.noreply.github.com>
           name: ombi
           version: ${{ github.event.inputs.version }}
           description: |
@@ -41,7 +56,7 @@ jobs:
         uses: EndBug/add-and-commit@v4 # You can change this to use a specific version
         with:
           add: repo
-          author_name: RoxBot
+          author_name: austind9999
           message: Added New Release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

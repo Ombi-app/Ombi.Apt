@@ -1,6 +1,6 @@
 FROM ubuntu:focal
 
-ENV DEBIAN_FRONTEND=noninteractive CC=${DEB_HOST_GNU_TYPE}-gcc
+ENV DEBIAN_FRONTEND=noninteractive
 
 RUN apt-get update -qq && \
     apt-get install -y --no-install-recommends --no-install-suggests \
