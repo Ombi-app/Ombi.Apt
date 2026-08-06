@@ -1,17 +1,37 @@
 Package: ombi
 Priority: optional
 Section: main
-Installed-Size: 149499
+Installed-Size: 149512
 Maintainer: austind9999 <1184583+austind9999@users.noreply.github.com>
 Architecture: arm64
-Version: 4.60.11
+Version: 4.60.13
 Depends: adduser
-Filename: pool/main/o/ombi/ombi_4.60.11_arm64.deb
-Size: 41842204
-MD5sum: 48fa55af8311308ffb3db968b0c98371
-SHA1: f60a4ffa52f6c714d129cda92f9f5d3d5359d402
-SHA256: 193b39dbb0a1a91f0378c1d9ed2b2fa50681c62f8eea0d6f4b95cfb405f596c9
-SHA512: 492b83ff69a80bf2ab1ccd0aefb5dc3f3bd21cdef7f886770e5c8743539f6d886d51c5233c36b0230caa9dc520898a3ed852e272d325cb5ad5801cebfeaaaffc
+Filename: pool/main/o/ombi/ombi_4.60.13_arm64.deb
+Size: 41840568
+MD5sum: 662ea81271346985a190a734fbb5b4ed
+SHA1: b75491d06deb78c5695c45312c5b7feffa127639
+SHA256: b6b728a99844809a17f013607c0e26138104c1803c66d5b159316bd1fda87822
+SHA512: 7397d41c5814d6c5fa78d49c30e70cd741384fc4a018e5cb7123f594a88be4c6fd6e19d2a138f43222a2b550450a28d526326fd56685d05bded5608021f99114
+Description: Want a Movie or TV Show on Plex or Emby? Use Ombi!
+ Ombi is a self-hosted web application that automatically gives your
+ shared Plex or Emby users the ability to request content by themselves!
+ Ombi can be linked to multiple TV Show and Movie DVR tools to create
+ a seamless end-to-end experience for your users.
+
+Package: ombi
+Priority: optional
+Section: main
+Installed-Size: 149512
+Maintainer: austind9999 <1184583+austind9999@users.noreply.github.com>
+Architecture: arm64
+Version: 4.60.12
+Depends: adduser
+Filename: pool/main/o/ombi/ombi_4.60.12_arm64.deb
+Size: 41844468
+MD5sum: f6fdccb29794fe2ca47f84286db3a8cd
+SHA1: a03e7bfa150343ac78f002032764b40f85d3a085
+SHA256: 5cdf7f48160d3ffb381e878b64259a8bbb7114b09934de8c8847e40fb5a4ea72
+SHA512: 043de14553e6f634e51aebc688eaa3246f129eb6b5bb37b10196cf35bacfaa4fcc64d3bf6a390fca527e1b2d7c2e7627f0cd5debeb3c6908d70d2af2ce32af9c
 Description: Want a Movie or TV Show on Plex or Emby? Use Ombi!
  Ombi is a self-hosted web application that automatically gives your
  shared Plex or Emby users the ability to request content by themselves!
